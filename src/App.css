@@ -1,0 +1,12 @@
+.box_style {
+    height: 250px;
+    /* border: 1px solid black; */
+}
+
+.overflow_text_ellipsis_one_lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
